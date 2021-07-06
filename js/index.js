@@ -9,7 +9,7 @@ const siteContent = {
     "img-src": "img/logo.png"
   },
   "cta": {
-    "h1": "DOM<br> Is<br> Awesome",
+    "h1": "DOM Is Awesome",
     "button": "Get Started",
     "img-src": "img/header-img.png"
   },
@@ -50,8 +50,7 @@ navItems[4].textContent = "About"
 navItems[5].textContent = "Contact"
 
 let ctaH1 = document.querySelector(".cta-text h1");
-ctaH1.textContent = "DOM Is Awesome"
-ctaH1.innerHTML = siteContent["cta"]["h1"];
+ctaH1.innerHTML = "DOM<br /> Is<br /> Awesome"
 
 let ctaButton = document.querySelector(".cta-text button");
 ctaButton.textContent = "Get Started"
@@ -79,3 +78,11 @@ let bottomContentTxt = document.querySelectorAll(".bottom-content p")
 bottomContentTxt[0].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 bottomContentTxt[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 bottomContentTxt[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+let contactH4 = document.querySelector(".contact h4")
+contactH4.textContent = "Contact"
+
+let contactTxt = document.querySelectorAll(".contact p")
+contactTxt[0].innerHTML = "123 Way 456 Street <br /> Somewhere, USA"
+contactTxt[1].textContent = "1 (888) 888-8888"
+contactTxt[2].textContent = "sales@greatidea.io"
