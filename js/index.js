@@ -41,7 +41,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent.nav["img-src"])
 
-let navItems = document.querySelectorAll("a")
+let navItems = document.querySelectorAll("a");
 navItems[0].textContent = "Services"
 navItems[1].textContent = "Products"
 navItems[2].textContent = "Vision"
@@ -58,3 +58,14 @@ ctaButton.textContent = "Get Started"
 
 let ctaImg = document.getElementById("cta-img");
 ctaImg.setAttribute('src', siteContent.cta["img-src"])
+
+let topContent = document.querySelectorAll(".top-content h4")
+topContent[0].textContent = "Features"
+topContent[1].textContent = "About"
+
+let topContentTxt = document.querySelectorAll(".top-content p")
+topContentTxt[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+topContentTxt[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+let middleImg = document.getElementById("middle-img");
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
