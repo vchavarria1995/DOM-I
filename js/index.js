@@ -69,3 +69,13 @@ topContentTxt[1].textContent = "About content elementum magna eros, ac posuere e
 
 let middleImg = document.getElementById("middle-img");
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
+let bottomContent = document.querySelectorAll(".bottom-content h4")
+bottomContent[0].textContent = "Services"
+bottomContent[1].textContent = "Product"
+bottomContent[2].textContent = "Vision"
+
+let bottomContentTxt = document.querySelectorAll(".bottom-content p")
+bottomContentTxt[0].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+bottomContentTxt[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+bottomContentTxt[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
